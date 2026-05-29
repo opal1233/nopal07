@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-press {
+    @apply transition-transform duration-150 ease-in-out;
+}
+
+.button-press:hover {
+    transform: translateY(-2px);
+}
+
+.button-press:active {
+    transform: translateY(2px);
+}
+
+.brand-bg {
+    background-color: #581f2d;
+}
+
+.brand-card {
+    background-color: rgba(255, 255, 255, 0.96);
+}
+
+.brand-border {
+    border-color: #7a2d45;
+}
+
+.brand-text {
+    color: #f7ede7;
+}
+
+.brand-button {
+    @apply rounded-xl px-4 py-3 text-sm font-semibold text-white transition button-press;
+    background-color: #8b1f3f;
+}
+
+.brand-button:hover {
+    background-color: #ab3d5e;
+}
+
+.brand-soft {
+    background-color: #f8f1ed;
+}
